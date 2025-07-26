@@ -1,3 +1,15 @@
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      parser: '@typescript-eslint/parser',
+      parserOptions: {
+        project: './tsconfig.json',
+        tsconfigRootDir: __dirname,
+        ecmaVersion: 'latest',
+        sourceType: 'module',
+      },
+    },
+  ],
 module.exports = {
   root: true,
   env: {
@@ -8,13 +20,15 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    '@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended',
     'prettier'
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module'
+    ecmaVersion: 2020,
+    sourceType: 'module',
+    // project: './tsconfig.json',
+    // tsconfigRootDir: __dirname,
   },
   plugins: ['react', '@typescript-eslint'],
   rules: {
