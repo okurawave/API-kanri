@@ -1,4 +1,3 @@
-// このファイルは .eslintrc.cjs にリネームされました
 module.exports = {
   root: true,
   env: {
