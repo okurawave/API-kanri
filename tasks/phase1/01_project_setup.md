@@ -15,9 +15,9 @@ API管理アプリのプロジェクト基盤を構築し、開発環境をセ�
 **担当**: フルスタック開発者
 
 **作業内容**:
-- [ ] ルートディレクトリの設定
-- [ ] frontend/、backend/、docs/ ディレクトリ作成
-- [ ] 基本的な設定ファイル配置
+- [x] ルートディレクトリの設定
+- [x] frontend/、backend/、docs/ ディレクトリ作成
+- [x] 基本的な設定ファイル配置
 
 **成果物**:
 ```
@@ -38,9 +38,9 @@ API-kanri/
 **担当**: フルスタック開発者
 
 **作業内容**:
-- [ ] ルートpackage.jsonの作成
-- [ ] ワークスペースの設定
-- [ ] 共通スクリプトの定義
+- [x] ルートpackage.jsonの作成
+- [x] ワークスペースの設定
+- [x] 共通スクリプトの定義
 
 **成果物**:
 - ルートpackage.json（ワークスペース設定）
@@ -51,9 +51,9 @@ API-kanri/
 **担当**: フロントエンド開発者
 
 **作業内容**:
-- [ ] Vite + React + TypeScript プロジェクト作成
-- [ ] ESLint + Prettier 設定
-- [ ] 基本的なディレクトリ構造作成
+- [x] Vite + React + TypeScript プロジェクト作成
+- [x] ESLint + Prettier 設定
+- [x] 基本的なディレクトリ構造作成
 
 **依存パッケージ**:
 ```json
@@ -79,9 +79,9 @@ API-kanri/
 **担当**: バックエンド開発者
 
 **作業内容**:
-- [ ] Node.js + Express + TypeScript プロジェクト作成
-- [ ] ESLint + Prettier 設定
-- [ ] 基本的なディレクトリ構造作成
+- [x] Node.js + Express + TypeScript プロジェクト作成
+- [x] ESLint + Prettier 設定
+- [x] 基本的なディレクトリ構造作成
 
 **依存パッケージ**:
 ```json
@@ -108,8 +108,8 @@ API-kanri/
 **担当**: DevOps/フルスタック開発者
 
 **作業内容**:
-- [ ] docker-compose.yml 作成
-- [ ] PostgreSQL、Redis コンテナ設定
+- [x] docker-compose.yml 作成
+- [x] PostgreSQL、Redis コンテナ設定
 - [ ] 開発用Dockerfile作成
 
 **docker-compose.yml例**:
@@ -163,9 +163,9 @@ volumes:
 **担当**: DevOps/フルスタック開発者
 
 **作業内容**:
-- [ ] GitHub Actions ワークフロー作成
-- [ ] テスト自動実行設定
-- [ ] リンター・フォーマッター自動実行
+- [x] GitHub Actions ワークフロー作成
+- [x] テスト自動実行設定
+- [x] リンター・フォーマッター自動実行
 
 **.github/workflows/ci.yml例**:
 ```yaml
@@ -189,8 +189,8 @@ jobs:
 **担当**: フルスタック開発者
 
 **作業内容**:
-- [ ] .env.example ファイル作成
-- [ ] 環境変数の定義と説明
+- [x] .env.example ファイル作成
+- [x] 環境変数の定義と説明
 - [ ] セキュリティ考慮事項の文書化
 
 **.env.example**:
@@ -214,15 +214,15 @@ PORT=3001
 ## 完了条件
 
 ### 技術的完了条件
-- [ ] 全てのプロジェクトが正常にビルドできる
-- [ ] Docker Compose で全サービスが起動する
-- [ ] フロントエンド（localhost:5173）にアクセス可能
-- [ ] バックエンドAPI（localhost:3001）が応答する
+- [x] 全てのプロジェクトが正常にビルドできる
+- [x] Docker Compose で全サービスが起動する
+- [x] フロントエンド（localhost:5173）にアクセス可能
+- [x] バックエンドAPI（localhost:3001）が応答する
 - [ ] データベース接続が確立される
 
 ### ドキュメント完了条件
-- [ ] README.md の更新
-- [ ] セットアップ手順の文書化
+- [x] README.md の更新
+- [x] セットアップ手順の文書化
 - [ ] 各環境での動作確認手順
 
 ## 次のタスクへの依存関係
